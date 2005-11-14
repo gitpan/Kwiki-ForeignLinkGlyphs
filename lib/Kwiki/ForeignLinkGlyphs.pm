@@ -1,10 +1,11 @@
 package Kwiki::ForeignLinkGlyphs;
 use strict;
 use warnings;
+
 use Kwiki::Plugin '-Base';
 use mixin 'Kwiki::Installer';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 const class_id => 'foreignlinkglyphs';
 const class_title => 'glyphs for foreign links';
@@ -83,7 +84,7 @@ Set this to "yes" if you would like foreign links to open in a new browser windo
 
 =head1 AUTHORS
 
-Ian Langworth <langworth.com>
+Ian Langworth <ian@cpan.org>
 
 =head1 SEE ALSO
 
